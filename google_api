@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet"type="text/css"href="style.css">
+	 <title>HTML5自習</title>
+	</head>
+	<body>
+	 <div id="site">
+	 <header><p id="title01">～吉良秀徳の東海大学紹介HP～</p></header>
+	  <nav>
+	   <p id="menu01">＜東海大HP＞</p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-shinagawa/">品川</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-shibuya/">渋谷</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-shonan/">湘南</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-isehara/">伊勢原</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-shizuoka/">静岡</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-kumamoto/">熊本</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-rinku/">臨空</a></p>
+	    <p id="menu01"><a href="https://www.u-tokai.ac.jp/about/campus/campus-sapporo/">札幌</a></p>
+	  </nav>
+	   <section>
+	    <p></p>
+	    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+		src="https://www.google.com/maps/embed/v1/place?q=tokai%20university%20in%20shonan&key=AIzaSyBdhU0Sfy9C1Zp-xCQxQYZ-wxP7gO10F5Q">
+	　　</iframe>
+	   </section>
+	    <footer><p id="menu01">制作　0CES2103_吉良秀徳</p></footer>
+	 </div>
+	</body>
+</html>
+
+@charset"utf-8";
+
+#title01{
+	line-height:0px;
+	text-align:center;
+	font-size:40px;
+	font-family:serif;
+	}
+#menu01{
+	text-align:center;
+	}
+#contents01{
+	padding:10px;
+	}
+
+
+body{
+	background-image:
+}
+header,nav,section,footer{
+	border:1px solid #999999;
+	border-radius:8px;
+	padding:10px 10px 10px 10px;
+	background:#ffffff;
+}
+#site{
+	margin:20px auto;
+	width:800px;height:600px;
+}
+header{
+	margin:0px 0px 0px 0px;
+	height:80px;width:778px;
+}
+nav{
+	margin:10px 0px 10px 0px;
+	float:left;
+	height:380px;width:120px;
+}
+section{
+	margin:10px 0px 10px 0px;
+	float:right;
+	height:460px;width:620px;
+}
+footer{
+	margin:0px 0px 0px 0px;
+	clear:both;
+	height:60px;width:778px;
+}
